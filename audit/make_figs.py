@@ -58,13 +58,18 @@ keep = [e for e in rec if not svseq(e)]
 ks = list(range(0, 26))
 fig, ax = plt.subplots(figsize=(3.5, 2.6))
 cols = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
+finals = []
 for m, c in zip(MODS, cols):
     a = [100 * sum(1 for e in rec if e[m]['pass'] and e[m]['iters'] is not None and e[m]['iters'] <= k) / len(rec) for k in ks]
     b = [100 * sum(1 for e in keep if e[m]['pass'] and e[m]['iters'] is not None and e[m]['iters'] <= k) / len(keep) for k in ks]
-    ax.plot(ks, a, '-', color=c, lw=1.2, label=f'{NAMES[m]}, all 220')
-    ax.plot(ks, b, '--', color=c, lw=1.2, label=f'{NAMES[m]}, 174 without the 46')
+    ax.plot(ks, a, '-', color=c, lw=0.8, alpha=0.35, label=f'{NAMES[m]}, all 220')
+    ax.plot(ks, b, '-', color=c, lw=2.0, label=f'{NAMES[m]}, 174 without the 46')
+    finals.append((a[-1], b[-1]))
+lo = sum(x for x, _ in finals) / len(finals); hi = sum(y for _, y in finals) / len(finals)
+ax.annotate('', xy=(26.3, hi), xytext=(26.3, lo), arrowprops=dict(arrowstyle='-|>', lw=0.8, color='0.25', shrinkA=0, shrinkB=0))
+ax.text(27.2, (lo + hi) / 2, '+16 to 17 points', fontsize=6, color='0.25', rotation=90, va='center', ha='center')
 ax.set_xlabel('repair rounds allowed, k'); ax.set_ylabel('designs passing by round k (%)')
-ax.set_xlim(0, 25); ax.set_ylim(30, 90); ax.grid(alpha=0.3, lw=0.4)
+ax.set_xlim(0, 28); ax.set_xticks([0, 5, 10, 15, 20, 25]); ax.set_ylim(30, 90); ax.grid(alpha=0.3, lw=0.4)
 ax.legend(fontsize=6, ncol=2, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.22))
 for s in ax.spines.values(): s.set_linewidth(0.4)
 fig.savefig(os.path.join(OUT, 'fig_curves.pdf'), bbox_inches='tight', dpi=600)
