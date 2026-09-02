@@ -1,0 +1,32 @@
+== duplicate keys among 220 rows == 7 {'2012q1g': 2, '2013q2bfsm': 2, '2014q3bfsm': 2, '2014q3c': 2, '2014q3fsm': 2, 'ece2412013q4': 2, 'edgedetect': 2}
+distinct keys: 213 | distinct labeled keys: 200
+
+== lineage split (pairs) : class x inVerilogEval ==
+building larger circuits   VE     problems=  1 zero-shot pairs=  0 (0%) first-fail=  4 recovered=  0 efficacy=0.0%
+building larger circuits   nonVE  problems= 13 zero-shot pairs= 13 (25%) first-fail= 39 recovered= 27 efficacy=69.2%
+combinatial logic          VE     problems= 59 zero-shot pairs=181 (77%) first-fail= 55 recovered= 33 efficacy=60.0%
+combinatial logic          nonVE  problems= 33 zero-shot pairs=103 (78%) first-fail= 29 recovered= 20 efficacy=69.0%
+sequential logic           VE     problems= 52 zero-shot pairs=  9 (4%) first-fail=198 recovered= 12 efficacy=6.1%
+sequential logic           nonVE  problems= 49 zero-shot pairs= 98 (50%) first-fail= 98 recovered= 62 efficacy=63.3%
+
+== per model, sequential, by lineage ==
+GPT-4    VE: zero=0 fail=51 rec=6 eff=12% | nonVE: zero=17 fail=32 rec=25 eff=78%
+4o       VE: zero=2 fail=50 rec=3 eff=6% | nonVE: zero=31 fail=18 rec=9 eff=50%
+4o-mini  VE: zero=3 fail=49 rec=0 eff=0% | nonVE: zero=24 fail=25 rec=14 eff=56%
+o1-mini  VE: zero=4 fail=48 rec=3 eff=6% | nonVE: zero=26 fail=23 rec=14 eff=61%
+
+== combinational never-recovered pairs: which problems ==
+  2012_q1g_b               VE     rznr
+  7458_b                   VE     rrnz
+  advanced1                nonVE  nnrn
+  Alwaysblock2             VE     nnnr
+  Always_case2             VE     rnnr
+  basic3                   nonVE  rnnr
+  Bugs_mux2                VE     rnnr
+  div_16bit                nonVE  nnnn
+  ece241_2013_q2           VE     nnnr
+  Exams_2012_q1g           VE     rrnr
+  Gates                    VE     nzzz
+  Gatesv_b                 VE     nnnr
+  Kmap2                    VE     nnnr
+  Kmap3                    VE     znnr

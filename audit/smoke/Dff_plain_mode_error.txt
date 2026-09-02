@@ -1,0 +1,30 @@
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:30: error: Task/function default argument requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:30: error: Task body with no statements requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:56: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:56: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:58: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:58: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:59: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:59: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:60: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:60: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:62: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:62: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:63: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:65: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:65: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:70: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:70: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:90: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:92: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:94: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:95: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:99: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:100: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:104: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:104: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:113: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:113: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:115: error: generate else is missing matching if.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:120: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Beginner(1)/Dff/testbench.sv:123: error: Invalid module item.

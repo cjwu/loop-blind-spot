@@ -1,0 +1,30 @@
+Please act as a professional verilog designer.
+
+// Implement a module of a 4-input NAND gate in combinational logic.
+// GATE PRIMITIVE
+// CONTINUOUS ASSIGNMENT STATEMENT
+// ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+
+module nand4_gate(
+    input       a, b, c, d,  // 4-Input
+    output      y);          // Output
+
+    // Insert your code here
+
+endmodule
+
+module nand4_dataflow(
+    input       a, b, c, d,  // 4-Input
+    output      y);          // Output
+
+    // Insert your code here
+
+endmodule
+
+module nand4_behavioral(
+    input       a, b, c, d,  // 4-Input
+    output      y);          // Output
+
+    // Insert your code here
+
+endmodule

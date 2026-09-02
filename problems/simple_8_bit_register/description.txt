@@ -1,0 +1,17 @@
+Please act as a professional verilog designer.
+
+// A simple 8-bit register with synchronous load and clear.
+
+module simple_8_bit_register_behavioral (
+    input       [7:0]   data_in,    // Data to load
+    input               clk,        // Clock
+    input               ld_bar,     // Load
+    input               clr_bar,    // Clear
+    output  reg [7:0]   data_out    // Output Data
+);
+
+    // 8-BIT REGISTER
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+    // Insert your code here
+
+endmodule

@@ -1,0 +1,14 @@
+Please act as a professional verilog designer.
+
+// Combining the encoder-8-3 to the decoder-3-8 to prove the input will equal the output.
+
+module encoder_to_decoder_structural(
+    input     [7:0] in,      // 8 Inputs
+    output    [7:0] out      // 8 Outputs
+);
+
+	// Insert your code here
+    // ENCODER
+    // DECODER
+
+endmodule

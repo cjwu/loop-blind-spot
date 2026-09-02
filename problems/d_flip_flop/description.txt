@@ -1,0 +1,52 @@
+Please act as a professional verilog designer.
+
+// Implement a module of a d flip-flop in sequential logic.
+// A d flip-flop which is pulse-triggered can save input data on output.
+
+module d_flip_flop_gate (
+    input       clk,        // Clock
+    input       d,          // Inputs
+    output      q,          // Output
+    output      qbar);      //
+
+    // INTERNAL WIRES
+    wire        s, r;
+    wire        s1, r1;
+  
+    // Insert your code here
+
+endmodule
+
+module d_flip_flop_dataflow (
+    input       clk,        // Clock
+    input       d,          // Inputs
+    output      q,          // Output
+    output      qbar);      //
+
+    assign s = d;
+    assign r = ~d;
+
+    // SR FLIP-FLOP ---------------------------------
+
+    // INTERNAL WIRES
+    wire        s1, r1;
+  
+    // Insert your code here
+
+endmodule
+
+module d_flip_flop_behavioral (
+    input       clk,        // Clock
+    input       d,          // Inputs
+    output reg  q,          // Output
+    output      qbar);      //
+
+    parameter    DATA0 = 1'b0,
+                 DATA1 = 1'b1;
+
+    // INTERNAL WIRES
+    assign qbar = ~q;
+
+    // Insert your code here
+
+endmodule

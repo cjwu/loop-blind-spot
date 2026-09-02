@@ -1,0 +1,43 @@
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:38: error: Task/function default argument requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:39: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:39: error: Malformed statement
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:38: error: Task body with multiple statements requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:65: error: Task/function default argument requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:65: error: Task body with no statements requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:101: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:101: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:103: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:103: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:104: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:104: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:105: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:105: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:107: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:107: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:108: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:110: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:110: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:115: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:115: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:138: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:140: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:141: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:142: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:143: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:145: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:146: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:147: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:148: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:149: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:153: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:154: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:155: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:156: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:157: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:161: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:161: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:170: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:170: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:172: error: generate else is missing matching if.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:177: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Shift4/testbench.sv:180: error: Invalid module item.

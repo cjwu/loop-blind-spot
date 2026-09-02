@@ -1,0 +1,16 @@
+Please act as a professional verilog designer.
+
+// A simple pipeline.
+
+module simple_pipeline_behavioral (
+    input                 clk,          // Clock
+    input       [7:0]     a, b, c, d,   // Data
+    output reg  [7:0]     f);           // Output Data
+
+    reg [7:0] y1, y2, y3, d1, d2;
+
+    // STAGE 1
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+    // Insert your code here
+
+endmodule

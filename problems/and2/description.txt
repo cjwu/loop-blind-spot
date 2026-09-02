@@ -1,0 +1,30 @@
+Please act as a professional verilog designer.
+
+// Implement a module of a 2-input AND gate in combinational logic.
+// GATE PRIMITIVE
+// CONTINUOUS ASSIGNMENT STATEMENT
+// ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+
+module and2_gate(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule
+
+module and2_dataflow(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule
+
+module and2_behavioral(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule

@@ -1,0 +1,341 @@
+{
+  "n_problems": 220,
+  "n_taxonomy": 288,
+  "single_model": {
+    "GPT-4": {
+      "pass": 145,
+      "rate": 65.91,
+      "median_iters_of_solved": 0.0,
+      "mean_iters_of_solved": 2.21,
+      "solved_at_0": 78,
+      "solved_within_1": 101
+    },
+    "4o": {
+      "pass": 138,
+      "rate": 62.73,
+      "median_iters_of_solved": 0.0,
+      "mean_iters_of_solved": 0.81,
+      "solved_at_0": 114,
+      "solved_within_1": 126
+    },
+    "4o-mini": {
+      "pass": 131,
+      "rate": 59.55,
+      "median_iters_of_solved": 0.0,
+      "mean_iters_of_solved": 1.04,
+      "solved_at_0": 104,
+      "solved_within_1": 117
+    },
+    "o1-mini": {
+      "pass": 149,
+      "rate": 67.73,
+      "median_iters_of_solved": 0.0,
+      "mean_iters_of_solved": 1.15,
+      "solved_at_0": 109,
+      "solved_within_1": 128
+    }
+  },
+  "solve_curve": {
+    "GPT-4": {
+      "k<=0": 35.45,
+      "k<=1": 45.91,
+      "k<=2": 50.45,
+      "k<=3": 52.73,
+      "k<=5": 56.82,
+      "k<=10": 62.27,
+      "k<=15": 63.64,
+      "k<=25": 65.45
+    },
+    "4o": {
+      "k<=0": 51.82,
+      "k<=1": 57.27,
+      "k<=2": 58.18,
+      "k<=3": 58.64,
+      "k<=5": 59.55,
+      "k<=10": 60.91,
+      "k<=15": 61.36,
+      "k<=25": 62.73
+    },
+    "4o-mini": {
+      "k<=0": 47.27,
+      "k<=1": 53.18,
+      "k<=2": 54.09,
+      "k<=3": 55.45,
+      "k<=5": 56.36,
+      "k<=10": 57.27,
+      "k<=15": 57.73,
+      "k<=25": 59.55
+    },
+    "o1-mini": {
+      "k<=0": 49.55,
+      "k<=1": 58.18,
+      "k<=2": 60.0,
+      "k<=3": 62.27,
+      "k<=5": 63.64,
+      "k<=10": 65.45,
+      "k<=15": 66.82,
+      "k<=25": 67.73
+    }
+  },
+  "ensemble": {
+    "best_single": "o1-mini",
+    "union_all": 70.91,
+    "solved_by_none": 29.09,
+    "unique": {
+      "GPT-4": [
+        "2014_q3fsm",
+        "buttons",
+        "m2014_q4c",
+        "priority_arbiter"
+      ],
+      "4o": [],
+      "4o-mini": [
+        "advanced1"
+      ],
+      "o1-mini": [
+        "Alwaysblock2",
+        "Gatesv_b",
+        "Kmap2",
+        "Module_b",
+        "ece241_2013_q2",
+        "review2015_fsmshift"
+      ]
+    },
+    "best_2": {
+      "models": [
+        "GPT-4",
+        "o1-mini"
+      ],
+      "rate": 70.45
+    },
+    "best_3": {
+      "models": [
+        "GPT-4",
+        "4o-mini",
+        "o1-mini"
+      ],
+      "rate": 70.91
+    }
+  },
+  "realised_multimodel": [
+    {
+      "combo": "mix 4 model",
+      "at_0": 92,
+      "within_5": 124,
+      "within_15": 133,
+      "final": 139,
+      "final_rate": 63.18
+    },
+    {
+      "combo": "o1+4o mini",
+      "at_0": 94,
+      "within_5": 125,
+      "within_15": 137,
+      "final": 140,
+      "final_rate": 63.64
+    },
+    {
+      "combo": "o1+4",
+      "at_0": 88,
+      "within_5": 119,
+      "within_15": 131,
+      "final": 135,
+      "final_rate": 61.36
+    }
+  ],
+  "joined": 207,
+  "breakdown": {
+    "building larger circuits | Expert(5)": {
+      "GPT-4": "2/5",
+      "4o": "2/5",
+      "4o-mini": "2/5",
+      "o1-mini": "2/5"
+    },
+    "building larger circuits | Hard(4)": {
+      "GPT-4": "5/5",
+      "4o": "5/5",
+      "4o-mini": "4/5",
+      "o1-mini": "5/5"
+    },
+    "building larger circuits | Intermediate(3)": {
+      "GPT-4": "3/4",
+      "4o": "3/4",
+      "4o-mini": "3/4",
+      "o1-mini": "4/4"
+    },
+    "combinatial logic | Basic(2)": {
+      "GPT-4": "22/24",
+      "4o": "21/24",
+      "4o-mini": "20/24",
+      "o1-mini": "24/24"
+    },
+    "combinatial logic | Beginner(1)": {
+      "GPT-4": "23/24",
+      "4o": "23/24",
+      "4o-mini": "23/24",
+      "o1-mini": "24/24"
+    },
+    "combinatial logic | Expert(5)": {
+      "GPT-4": "17/18",
+      "4o": "16/18",
+      "4o-mini": "16/18",
+      "o1-mini": "17/18"
+    },
+    "combinatial logic | Hard(4)": {
+      "GPT-4": "12/15",
+      "4o": "11/15",
+      "4o-mini": "12/15",
+      "o1-mini": "14/15"
+    },
+    "combinatial logic | Intermediate(3)": {
+      "GPT-4": "11/11",
+      "4o": "11/11",
+      "4o-mini": "9/11",
+      "o1-mini": "11/11"
+    },
+    "sequential logic | Basic(2)": {
+      "GPT-4": "8/21",
+      "4o": "8/21",
+      "4o-mini": "6/21",
+      "o1-mini": "8/21"
+    },
+    "sequential logic | Beginner(1)": {
+      "GPT-4": "11/20",
+      "4o": "11/20",
+      "4o-mini": "10/20",
+      "o1-mini": "11/20"
+    },
+    "sequential logic | Expert(5)": {
+      "GPT-4": "11/20",
+      "4o": "7/20",
+      "4o-mini": "8/20",
+      "o1-mini": "8/20"
+    },
+    "sequential logic | Hard(4)": {
+      "GPT-4": "10/19",
+      "4o": "10/19",
+      "4o-mini": "9/19",
+      "o1-mini": "11/19"
+    },
+    "sequential logic | Intermediate(3)": {
+      "GPT-4": "9/21",
+      "4o": "9/21",
+      "4o-mini": "8/21",
+      "o1-mini": "9/21"
+    }
+  },
+  "unsolved_by_type": {
+    "combinatial logic": "1/92 (1.1%)",
+    "sequential logic": "48/101 (47.5%)",
+    "building larger circuits": "3/14 (21.4%)"
+  },
+  "repair_efficacy": {
+    "per_model": {
+      "GPT-4": {
+        "combinatial logic": {
+          "recovered": 25,
+          "first_attempt_failures": 32,
+          "efficacy": 78.1
+        },
+        "sequential logic": {
+          "recovered": 31,
+          "first_attempt_failures": 83,
+          "efficacy": 37.3
+        },
+        "building larger circuits": {
+          "recovered": 9,
+          "first_attempt_failures": 13,
+          "efficacy": 69.2
+        }
+      },
+      "4o": {
+        "sequential logic": {
+          "recovered": 12,
+          "first_attempt_failures": 68,
+          "efficacy": 17.6
+        },
+        "combinatial logic": {
+          "recovered": 8,
+          "first_attempt_failures": 18,
+          "efficacy": 44.4
+        },
+        "building larger circuits": {
+          "recovered": 4,
+          "first_attempt_failures": 8,
+          "efficacy": 50.0
+        }
+      },
+      "4o-mini": {
+        "combinatial logic": {
+          "recovered": 7,
+          "first_attempt_failures": 19,
+          "efficacy": 36.8
+        },
+        "sequential logic": {
+          "recovered": 14,
+          "first_attempt_failures": 74,
+          "efficacy": 18.9
+        },
+        "building larger circuits": {
+          "recovered": 5,
+          "first_attempt_failures": 10,
+          "efficacy": 50.0
+        }
+      },
+      "o1-mini": {
+        "combinatial logic": {
+          "recovered": 13,
+          "first_attempt_failures": 15,
+          "efficacy": 86.7
+        },
+        "sequential logic": {
+          "recovered": 17,
+          "first_attempt_failures": 71,
+          "efficacy": 23.9
+        },
+        "building larger circuits": {
+          "recovered": 9,
+          "first_attempt_failures": 12,
+          "efficacy": 75.0
+        }
+      }
+    },
+    "pooled": {
+      "combinatial logic": {
+        "recovered": 53,
+        "first_attempt_failures": 84,
+        "efficacy": 63.1,
+        "ci95_pp": 10.3
+      },
+      "sequential logic": {
+        "recovered": 74,
+        "first_attempt_failures": 296,
+        "efficacy": 25.0,
+        "ci95_pp": 4.9
+      },
+      "building larger circuits": {
+        "recovered": 27,
+        "first_attempt_failures": 43,
+        "efficacy": 62.8,
+        "ci95_pp": 14.4
+      }
+    }
+  },
+  "outcome_classes": {
+    "combinatial logic": {
+      "repaired": 53,
+      "zeroshot": 284,
+      "never": 31
+    },
+    "sequential logic": {
+      "never": 222,
+      "repaired": 74,
+      "zeroshot": 107
+    },
+    "building larger circuits": {
+      "zeroshot": 13,
+      "repaired": 27,
+      "never": 16
+    }
+  }
+}

@@ -1,0 +1,39 @@
+Please act as a professional verilog designer.
+
+// A sr (set ready) flip-flop which is pulse-triggered can be set and reset.
+
+module sr_flip_flop_gate (
+    input       clk,        // Clock
+    input       s,          // Inputs
+    input       r,          // 
+    output      q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule
+
+module sr_flip_flop_dataflow (
+    input       clk,        // Clock
+    input       s,          // Inputs
+    input       r,          // 
+    output      q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule
+
+module sr_flip_flop_behavioral (
+    input       clk,        // Clock
+    input       s,          // Inputs
+    input       r,          // 
+    output reg  q,          // Output
+    output      qbar);      //
+
+    // INTERNAL WIRES
+    assign qbar = ~q;
+
+    // Insert your code here
+
+endmodule

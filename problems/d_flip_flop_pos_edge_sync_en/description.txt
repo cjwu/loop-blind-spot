@@ -1,0 +1,14 @@
+Please act as a professional verilog designer.
+
+// A posedge-triggered d flip-flop with synchronous enable used in my jeff_74x377.
+
+module d_flip_flop_pos_edge_sync_en_behavioral (
+    input       clk,        // Clock
+    input       en,         // Enable
+    input       d,          // Data
+    output reg  q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule

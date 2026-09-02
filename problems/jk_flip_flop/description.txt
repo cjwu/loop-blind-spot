@@ -1,0 +1,37 @@
+Please act as a professional verilog designer.
+
+// A jk flip-flop which is pulse-triggered can be set, reset and toggled.
+// This has a race condition when clock is high.
+
+module jk_flip_flop_gate (
+    input       clk,        // Clock
+    input       j,          // Inputs
+    input       k,          // 
+    output      q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule
+
+module jk_flip_flop_dataflow (
+    input       clk,        // Clock
+    input       j,          // Inputs
+    input       k,          // 
+    output      q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule
+
+module jk_flip_flop_behavioral (
+    input       clk,        // Clock
+    input       j,          // Inputs
+    input       k,          // 
+    output reg  q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule

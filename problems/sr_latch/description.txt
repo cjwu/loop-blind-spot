@@ -1,0 +1,34 @@
+Please act as a professional verilog designer.
+
+// A sr (set ready) latch which is level-triggered that can be set and reset.
+// The latch forms the basic building block of other types of latches and flip-flops.
+
+module sr_latch_gate (
+    input       s,          // Inputs
+    input       r,          // 
+    output      q,          // Output
+    output      qbar);      //
+    
+    // Insert your code here
+
+endmodule
+
+module sr_latch_dataflow (
+    input       s,          // Inputs
+    input       r,          // 
+    output      q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule
+
+module sr_latch_behavioral (
+    input       s,          // Inputs
+    input       r,          // 
+    output reg  q,          // Output
+    output      qbar);      //
+
+    // Insert your code here
+
+endmodule

@@ -1,0 +1,23 @@
+Please act as a professional verilog designer.
+
+In this project, Verilog code for FIFO memory is presented. The First-In-First-Out (FIFO) memory with the following specification is implemented in Verilog:
+16 stages
+8-bit data width 
+Status signals: 
+Full: high when FIFO is full else low.
+Empty: high when FIFO is empty else low.
+Overflow: high when FIFO is full and still writing data into FIFO, else low.
+Underflow: high when FIFO is empty and still reading data from FIFO, else low.
+Threshold: high when the number of data in FIFO is less than a specific threshold, else low.
+please write the module and submodules in a same file.
+
+// Top level Verilog code for FIFO Memory
+module fifo_mem(data_out,fifo_full, fifo_empty, fifo_threshold, fifo_overflow, fifo_underflow,clk, rst_n, wr, rd, data_in);  
+ // Verilog code for Memory Array submodule 
+ module memory_array(data_out, data_in, clk,fifo_we, wptr,rptr);  
+ // Verilog code for Read Pointer sub-module 
+ module read_pointer(rptr,fifo_rd,rd,fifo_empty,clk,rst_n); 
+ // Verilog code for Status Signals sub-module 
+ module status_signal(fifo_full, fifo_empty, fifo_threshold, fifo_overflow, fifo_underflow, wr, rd, fifo_we, fifo_rd, wptr,rptr,clk,rst_n);  
+ // Verilog code for Write Pointer sub-module 
+ module write_pointer(wptr,fifo_we,wr,fifo_full,clk,rst_n);  

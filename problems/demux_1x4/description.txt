@@ -1,0 +1,13 @@
+Please act as a professional verilog designer.
+
+// Demultiplexer - One input, four outputs.
+
+module demux_1x4_behavioral(
+    input       y,               // 1 Input
+    input       [1:0] sel,       // Select
+    output reg  a, b, c, d);     // 4 Outputs
+
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+	// Insert your code here
+
+endmodule

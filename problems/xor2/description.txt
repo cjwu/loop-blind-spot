@@ -1,0 +1,30 @@
+Please act as a professional verilog designer.
+
+// Implement a module of a 2-input XOR gate in combinational logic.
+// GATE PRIMITIVE
+// CONTINUOUS ASSIGNMENT STATEMENT
+// ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+
+module xor2_gate(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule
+
+module xor2_dataflow(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule
+
+module xor2_behavioral(
+    input       a, b,     // 2-Input
+    output      y);       // Output
+
+    // Insert your code here
+
+endmodule

@@ -1,0 +1,4 @@
+GPT-4 gain5-25 all=8.6 excl=10.3
+4o gain5-25 all=3.2 excl=4.0
+4o-mini gain5-25 all=3.2 excl=4.0
+o1-mini gain5-25 all=4.1 excl=4.6

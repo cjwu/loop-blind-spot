@@ -1,0 +1,23 @@
+Please act as a professional verilog designer.
+
+// Recognize the pattern 00110 in a serial stream.
+
+module moore_state_machine_behavioral (
+    input        clk,           // clk
+    input        rst,           // Reset
+    input        in,            // Serial in
+    output reg   found);        // Found pattern
+
+    // DATA TYPES
+    reg [2:0] state;
+
+    // STATES - BINARY ENCODED STYLE - USE ANY STYLE YOU WANT
+	// Insert your code here
+
+
+    // MOORE STATE MACHINE
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+	// Insert your code here
+
+
+endmodule

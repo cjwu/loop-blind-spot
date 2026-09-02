@@ -1,0 +1,65 @@
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:14: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:14: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:17: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:17: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:18: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:18: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:19: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:19: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:20: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:24: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:25: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:25: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:25: error: generate else is missing matching if.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:28: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:43: error: Task/function default argument requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:44: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:44: error: Malformed statement
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:43: error: Task body with multiple statements requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:70: error: Task/function default argument requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:70: error: Task body with no statements requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:113: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:113: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:115: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:115: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:116: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:116: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:117: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:117: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:119: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:119: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:120: error: Invalid module item.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:122: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:122: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:127: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:127: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:148: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:150: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:151: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:153: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:154: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:155: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:159: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:160: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:161: error: Implicit named port connections requires SystemVerilog.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:165: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:165: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:174: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:174: error: Invalid module instantiation
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:176: error: generate else is missing matching if.
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:181: syntax error
+/Users/cjw/@RESAECH/RTL-Code/分類(292題)/sequential logic/Basic(2)/Fsm3/testbench.sv:184: error: Invalid module item.
+top.v:11: syntax error
+top.v:11: error: Invalid module instantiation
+top.v:14: syntax error
+top.v:14: error: Invalid module item.
+top.v:15: syntax error
+top.v:15: error: Invalid module item.
+top.v:16: syntax error
+top.v:16: error: Invalid module item.
+top.v:17: syntax error
+top.v:21: error: Invalid module item.
+top.v:22: syntax error
+top.v:22: error: Invalid module instantiation
+top.v:22: error: generate else is missing matching if.
+top.v:25: error: Invalid module item.

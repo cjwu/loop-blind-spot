@@ -1,0 +1,32 @@
+Please act as a professional verilog designer.
+
+// A programable 8-bit microprocessor. Originally designed in VHDL for part of my Master's Thesis  
+
+// The top level of the design
+
+module programable_8_bit_microprocessor (
+    input  [3:0]    OPCODE,             //
+    input  [7:0]    DATA_IN_A,          // 
+    input  [7:0]    DATA_IN_B,          // 
+    input           GO_BAR,             // 
+    input           RESET,              // 
+    input           JAM,                // 
+    input           SYSTEM_CLK,         // 
+    input  [23:0]   MW,                 //
+    output [7:0]    MICROADDRESS,       // 
+    output [7:0]    DATA_OUT            // 
+);
+
+    // WIRES
+    wire [3:0]     STATUS_BITS; 
+    wire [23:13]   CONTROL_BITS;
+    wire           EIL_BAR;
+
+    // CONTROL_SECTION
+    // Insert your code here
+
+
+    // PROCESSOR SECTION
+    // Insert your code here
+
+endmodule

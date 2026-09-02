@@ -1,0 +1,55 @@
+Please act as a professional verilog designer.
+
+// A t flip-flop which is pulse-triggered can be toggled.
+// This has a race condition when clock is high.
+
+module t_flip_flop_gate (
+    input       clk,        // Clock
+    input       t,          // Inputs
+    output      q,          // Output
+    output      qbar);      //
+
+    // INTERNAL WIRES
+    wire        j, k;
+    wire        s, r;
+
+    assign j = t;
+    assign k = t;
+
+    // JK FLIP-FLOP -----------------------------------
+    // Insert your code here
+    // SR- LATCH -------------------------------------
+    // Insert your code here
+
+endmodule
+
+module t_flip_flop_dataflow (
+    input       clk,        // Clock
+    input       t,          // Inputs
+    output      q,          // Output
+    output      qbar);      //
+
+    // INTERNAL WIRES
+    wire        s, r;
+
+    // JK FLIP-FLOP -----------------------------------
+    // Insert your code here
+    // SR- LATCH -------------------------------------
+    // Insert your code here
+
+endmodule
+
+module t_flip_flop_behavioral (
+    input       clk,        // Clock
+    input       t,          // Inputs
+    output reg  q,          // Output
+    output      qbar);      //
+
+    parameter   HOLD   = 1'b0,
+                TOGGLE = 1'b1;
+
+    // INTERNAL WIRES
+    assign qbar = ~q;
+    // Insert your code here
+
+endmodule

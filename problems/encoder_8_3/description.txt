@@ -1,0 +1,12 @@
+Please act as a professional verilog designer.
+
+// Encoder - Eights inputs (1 hot) encodes to output.
+
+module encoder_8_3_behavioral(
+    input      [7:0] in,    // 8 Inputs
+    output reg [2:0] out);  // 3 Outputs
+
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+	// Insert your code here
+
+endmodule

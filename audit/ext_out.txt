@@ -1,0 +1,23 @@
+== class x testbench extension (pairs) ==
+building larger circuits   .sv   problems=  1 zero-shot=  0 (0%) first-fail=  4 recovered=  0 efficacy=0.0%  never=4
+building larger circuits   .v    problems= 13 zero-shot= 13 (25%) first-fail= 39 recovered= 27 efficacy=69.2%  never=12
+combinatial logic          .v    problems= 92 zero-shot=284 (77%) first-fail= 84 recovered= 53 efficacy=63.1%  never=31
+sequential logic           .sv   problems= 46 zero-shot=  3 (2%) first-fail=181 recovered=  3 efficacy=1.7%  never=178
+sequential logic           .v    problems= 55 zero-shot=104 (47%) first-fail=115 recovered= 71 efficacy=61.7%  never=44
+
+== .sv problems that were ever passed (any model) ==
+  2014_q3fsm               sequ rnnn
+  edge_detect              sequ rzzz
+  m2014_q4c                sequ rnnn
+
+== .v sequential problems never recovered by any model ==
+  Cs450_timer              nnnn
+  jk_flip_flop_pulse_triggered nnnn
+  radix2_div               nnnn
+  signal_generator         nnnn
+  traffic_light            nnnn
+
+== pooled repair efficacy restricted to .v testbenches ==
+  combinatial logic          53/84 = 63.1%
+  sequential logic           71/115 = 61.7%
+  building larger circuits   27/39 = 69.2%

@@ -1,0 +1,6 @@
+Please act as a professional verilog designer.
+
+// Verilog code for up counter
+
+module up_counter(input clk, reset, output[3:0] counter
+    );

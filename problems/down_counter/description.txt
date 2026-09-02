@@ -1,0 +1,5 @@
+Please act as a professional verilog designer.
+
+// Verilog code for down counter
+
+module down_counter(input clk, reset, output [3:0] counter);

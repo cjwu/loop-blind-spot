@@ -1,0 +1,19 @@
+Please act as a professional verilog designer.
+
+// A three level Priority Arbiter with asynchronous reset (using if-then-else statements).
+
+module priority_arbiter_behavioral(
+    input       clk,          // Clock  
+    input       rst,          // Reset
+    input       req_0,        // Request 0
+    input       req_1,        // Request 1
+    input       req_2,        // Request 2
+    output reg  gnt_0,        // Grant 0
+    output reg  gnt_1,        // Grant 1
+    output reg  gnt_2         // Grant 2
+);
+
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+    // Insert your code here
+
+endmodule

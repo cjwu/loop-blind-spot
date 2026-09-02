@@ -1,0 +1,293 @@
+class,difficulty,problem,tb_ext,plain_mode,plain_rc,sv_mode,sv_rc,golden_g2012_mismatches,ref_as_dut_plain_mode
+building larger circuits,Expert(5),Adder100i,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Expert(5),Conwaylife,sv,syntax,45,unknown_module_only,2,compile_fail_g2012,rc=53 syntax
+building larger circuits,Expert(5),FIFO_memory,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Expert(5),alu,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Expert(5),asyn_fifo,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Expert(5),fifo_asynchronous,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Hard(4),Bcsadd100,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Hard(4),adder_32bit,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Hard(4),dual_port_ram_asynchronous,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Hard(4),dual_port_ram_synchronous,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Hard(4),fifo_synchronous,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Intermediate(3),Bcdadd4,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Intermediate(3),Module'',v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Intermediate(3),Module_addsub_b,v,unknown_module_only,2,unknown_module_only,2,,
+building larger circuits,Intermediate(3),Module_fadd_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),7458_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Always_if,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Alwaysblock1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Alwaysblock2'',v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Bugs_case,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Bugs_mux4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Gates100,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Gates4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Gatesv'',v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Hadd,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Kmap1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Mt2015_eq2,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Mt2015_q4a,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),Mux2to1v_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),alwaysblock2-2,sv,syntax,43,unknown_module_only,2,compile_fail_g2012,rc=43 syntax
+combinatial logic,Basic(2),basic3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),decoder_3_8,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),demux_1x4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),encoder_8_3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),gatesv-2,sv,syntax,36,unknown_module_only,2,compile_fail_g2012,rc=36 syntax
+combinatial logic,Basic(2),half_adder,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Basic(2),intermediate1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),jeff_74x151,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),jeff_74x157,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),m2014_q4a-2,sv,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+combinatial logic,Basic(2),mux_to_demux,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Basic(2),nand4,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),7420_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Andgate,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Bugs_mux2,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Bugs_nand3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Fadd,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Gates,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Mux2to1_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Norgate_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Step_one,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Wire,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Wire4_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Xnorgate_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),Zero,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),and2,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),basic1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),basic2,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),basic4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),bugs_mux2-2,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+combinatial logic,Beginner(1),full_adder,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),m2014_q4e,sv,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+combinatial logic,Beginner(1),m2014_q4h,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),mux_4x1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Beginner(1),nor2,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),not1,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),or2,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Beginner(1),xor2,v,unknown_module_only,4,unknown_module_only,4,,
+combinatial logic,Expert(5),Always_casez,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Always_if2,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Fsm3comb,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Fsm3onehot,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Kmap3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Mux256to1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Mux256to1v,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Popcount255,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Reduction,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Ringer,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Thermostat,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Vector100r,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Vector2_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Vector3_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Vector5_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),Vectorgates,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),barrel_shifter,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),circuit5,sv,syntax,40,unknown_module_only,2,compile_fail_g2012,rc=40 syntax
+combinatial logic,Expert(5),circuit6,sv,syntax,28,unknown_module_only,2,compile_fail_g2012,rc=28 syntax
+combinatial logic,Expert(5),div_16bit,v,other,1,other,1,,
+combinatial logic,Expert(5),fsm3onehot-2,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+combinatial logic,Expert(5),fsm_onehot-2,sv,syntax,53,unknown_module_only,2,compile_fail_g2012,rc=53 syntax
+combinatial logic,Expert(5),jeff_74x181,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),multi_8bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Expert(5),sub_64bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Adder100,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Always_case,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Always_case2,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Gatesv100,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Kmap2'',v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Kmap4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Mux9to1v_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Truethtable1_b,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Vector1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Vector4,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),Vectorr,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),adder_bcd,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),advanced1,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),always_case2-2,sv,syntax,28,unknown_module_only,2,compile_fail_g2012,rc=28 syntax
+combinatial logic,Hard(4),circuit2,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+combinatial logic,Hard(4),circuit3,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+combinatial logic,Hard(4),circuit4,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+combinatial logic,Hard(4),ece241_2013_q2'',v,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=47 syntax
+combinatial logic,Hard(4),ece241_2013_q2-2,sv,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=47 syntax
+combinatial logic,Hard(4),ece241_2014_q3,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+combinatial logic,Hard(4),encoder_to_decoder,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),fixed_point_adder,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),fixed_point_subtractor,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Hard(4),intermediate7,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),2012_q1g,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),Adder3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),Always_nolatches,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),Bugs_addsubz,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),Conditional,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),Popcount3,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),adder_16bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),adder_8bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),circuit1,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+combinatial logic,Intermediate(3),comparator_3bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),comparator_4bit,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),ece241_2014_q1c,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),intermediate8,v,unknown_module_only,2,unknown_module_only,2,,
+combinatial logic,Intermediate(3),m2014_q3,sv,syntax,59,unknown_module_only,2,compile_fail_g2012,rc=92 syntax
+combinatial logic,Intermediate(3),m2014_q4f,sv,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+combinatial logic,Intermediate(3),m2014_q4g,sv,syntax,32,unknown_module_only,2,compile_fail_g2012,rc=32 syntax
+combinatial logic,Intermediate(3),m2014_q4i,sv,syntax,23,unknown_module_only,2,compile_fail_g2012,rc=23 syntax
+combinatial logic,Intermediate(3),m2014_q4j,sv,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+combinatial logic,Intermediate(3),m2014_q6b,sv,syntax,56,unknown_module_only,2,compile_fail_g2012,rc=83 syntax
+combinatial logic,Intermediate(3),m2014_q6c-2,sv,syntax,41,unknown_module_only,2,compile_fail_g2012,rc=41 syntax
+combinatial logic,Intermediate(3),mt2015_q4,sv,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+combinatial logic,Intermediate(3),mt2015_q4b,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+combinatial logic,Intermediate(3),truthtable1,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+combinatial logic,Intermediate(3),vector0,sv,syntax,42,unknown_module_only,2,compile_fail_g2012,rc=42 syntax
+combinatial logic,Intermediate(3),wire_decl,sv,syntax,41,unknown_module_only,2,compile_fail_g2012,rc=41 syntax
+sequential logic,Basic(2),2014_q3bfsm,sv,syntax,45,unknown_module_only,2,compile_fail_g2012,rc=59 syntax
+sequential logic,Basic(2),2014_q4a,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Basic(2),Countbcd,sv,syntax,40,unknown_module_only,2,compile_fail_g2012,rc=42 syntax
+sequential logic,Basic(2),Countslow,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Basic(2),Dff8ar,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Basic(2),Dff8p,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Basic(2),Edgecapture,sv,syntax,33,unknown_module_only,2,compile_fail_g2012,rc=33 syntax
+sequential logic,Basic(2),Edgedetect,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Basic(2),Edgedetect2,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Basic(2),Fsm3,sv,syntax,51,unknown_module_only,2,compile_fail_g2012,rc=65 syntax
+sequential logic,Basic(2),Fsm3s,sv,syntax,51,unknown_module_only,2,compile_fail_g2012,rc=65 syntax
+sequential logic,Basic(2),Popcount3,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),Shift4,sv,syntax,43,unknown_module_only,2,compile_fail_g2012,rc=43 syntax
+sequential logic,Basic(2),advanced2,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),counter_2bc,sv,syntax,42,unknown_module_only,2,compile_fail_g2012,rc=42 syntax
+sequential logic,Basic(2),d_flip_flop_pos_edge_sync_en,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),d_flip_flop_pulse_triggered,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Basic(2),edge_detect,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),fsm,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),fsm1s,sv,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=57 syntax
+sequential logic,Basic(2),fsm2s,sv,syntax,52,unknown_module_only,2,compile_fail_g2012,rc=62 syntax
+sequential logic,Basic(2),intermediate3,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),jk_flip_flop_pos_edge_sync_clear,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),jk_flip_flop_pulse_triggered,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Basic(2),m2014_q4k,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+sequential logic,Basic(2),m2014_q6,sv,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=63 syntax
+sequential logic,Basic(2),mt2015_muxdff,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Basic(2),simple_8_bit_register,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),square_wave,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Basic(2),up_down_counter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),Count10,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Beginner(1),Count15,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Beginner(1),Count1to10,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Beginner(1),Dff,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Beginner(1),Dff8,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Beginner(1),Dff8r,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Beginner(1),clkgenerator,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),counter_12,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),d_flip_flop,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Beginner(1),down_counter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),ece241_2013_q7,sv,syntax,33,unknown_module_only,2,compile_fail_g2012,rc=33 syntax
+sequential logic,Beginner(1),fsm1,sv,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=57 syntax
+sequential logic,Beginner(1),fsm2,sv,syntax,52,unknown_module_only,2,compile_fail_g2012,rc=62 syntax
+sequential logic,Beginner(1),intermediate2,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),intermediate4,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),intermediate5,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),jk_flip_flop,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Beginner(1),left_shift_register,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),m2014_q4a,v,syntax,29,unknown_module_only,2,compile_fail_g2012,rc=29 syntax
+sequential logic,Beginner(1),m2014_q4b,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+sequential logic,Beginner(1),m2014_q4c,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+sequential logic,Beginner(1),m2014_q4c'',v,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+sequential logic,Beginner(1),right_shifter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Beginner(1),sr_flip_flop,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Beginner(1),sr_latch,v,unknown_module_only,4,unknown_module_only,4,,
+sequential logic,Beginner(1),t_flip_flop,v,unknown_module_only,3,unknown_module_only,3,,
+sequential logic,Beginner(1),up_counter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),2013_q2afsm,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Expert(5),2013_q2bfsm,sv,syntax,60,unknown_module_only,2,compile_fail_g2012,rc=82 syntax
+sequential logic,Expert(5),Count_clock,sv,syntax,49,unknown_module_only,2,compile_fail_g2012,rc=49 syntax
+sequential logic,Expert(5),RAM,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),ROM,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),adder_pipe_64bit,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),buttons,v,unknown_module_only,6,unknown_module_only,6,,
+sequential logic,Expert(5),calendar,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),ece241_2013_q4,sv,syntax,65,unknown_module_only,2,compile_fail_g2012,rc=81 syntax
+sequential logic,Expert(5),ece241_2014_q5a,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Expert(5),float_multi,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),freq_divbyfrac,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),gshare,sv,syntax,61,unknown_module_only,2,compile_fail_g2012,rc=61 syntax
+sequential logic,Expert(5),instr_reg,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),lifo_synchronous,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),m2014_q6c'',v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),multi_16bit,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),multi_booth_8bit,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),multi_pipe_8bit,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),priority_arbiter'',v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),programable_8_bit_microprocessor,v,unknown_module_only,3,unknown_module_only,3,,
+sequential logic,Expert(5),radix2_div',v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),review2015_fancytimer,sv,syntax,100,unknown_module_only,2,compile_fail_g2012,rc=154 syntax
+sequential logic,Expert(5),review2015_fsmonehot,sv,syntax,67,unknown_module_only,2,compile_fail_g2012,rc=67 syntax
+sequential logic,Expert(5),ring_counter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),rotate100,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Expert(5),sequence_detector,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),single_port_ram_synchronous,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),synchronizer,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Expert(5),traffic_light,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),2012_q2fsm,sv,syntax,47,unknown_module_only,2,compile_fail_g2012,rc=63 syntax
+sequential logic,Hard(4),2014_q3fsm,sv,syntax,58,unknown_module_only,2,compile_fail_g2012,rc=78 syntax
+sequential logic,Hard(4),Cs450_timer,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),Dualedge,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),Fsm_hdlc,sv,syntax,39,unknown_module_only,2,compile_fail_g2012,rc=39 syntax
+sequential logic,Hard(4),JC_counter,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),LFSR,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),LIFObuffer,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),Lfsr32,sv,syntax,28,unknown_module_only,2,compile_fail_g2012,rc=28 syntax
+sequential logic,Hard(4),accu,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),advanced3,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),advanced4,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),advanced5,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),circuit10,sv,syntax,38,unknown_module_only,2,compile_fail_g2012,rc=38 syntax
+sequential logic,Hard(4),circuit7,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Hard(4),circuit8,sv,syntax,35,unknown_module_only,2,compile_fail_g2012,rc=35 syntax
+sequential logic,Hard(4),circuit9,sv,syntax,31,unknown_module_only,2,compile_fail_g2012,rc=31 syntax
+sequential logic,Hard(4),dualedge-2,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Hard(4),freq_divbyeven,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),freq_divbyodd,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),history_shift,sv,syntax,51,unknown_module_only,2,compile_fail_g2012,rc=51 syntax
+sequential logic,Hard(4),lfsr5,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Hard(4),multi_pipe_4bit,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),parallel2serial,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),pe,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),pulse_detect,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),review2015_count1k,sv,syntax,34,unknown_module_only,2,compile_fail_g2012,rc=34 syntax
+sequential logic,Hard(4),review2015_fsm,sv,syntax,91,unknown_module_only,2,compile_fail_g2012,rc=135 syntax
+sequential logic,Hard(4),serial2parallel,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),signal_generator,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Hard(4),timer,sv,syntax,35,unknown_module_only,2,compile_fail_g2012,rc=35 syntax
+sequential logic,Hard(4),width_8to16,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),2012_q2b,sv,syntax,41,unknown_module_only,2,compile_fail_g2012,rc=41 syntax
+sequential logic,Intermediate(3),2014_q3c,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),2014_q3c-2,sv,syntax,70,unknown_module_only,2,compile_fail_g2012,rc=105 syntax
+sequential logic,Intermediate(3),Dff16e,sv,syntax,40,unknown_module_only,2,compile_fail_g2012,rc=40 syntax
+sequential logic,Intermediate(3),Fsm_ps2,sv,syntax,45,unknown_module_only,2,compile_fail_g2012,rc=59 syntax
+sequential logic,Intermediate(3),Fsm_ps2data,sv,syntax,49,unknown_module_only,2,compile_fail_g2012,rc=63 syntax
+sequential logic,Intermediate(3),Fsm_serial,sv,syntax,61,unknown_module_only,2,compile_fail_g2012,rc=91 syntax
+sequential logic,Intermediate(3),Fsm_serialdata,sv,syntax,67,unknown_module_only,2,compile_fail_g2012,rc=99 syntax
+sequential logic,Intermediate(3),Rule110,sv,syntax,33,unknown_module_only,2,compile_fail_g2012,rc=33 syntax
+sequential logic,Intermediate(3),Rule90,sv,syntax,33,unknown_module_only,2,compile_fail_g2012,rc=33 syntax
+sequential logic,Intermediate(3),Shift18,sv,syntax,39,unknown_module_only,2,compile_fail_g2012,rc=39 syntax
+sequential logic,Intermediate(3),ece241_2013_q12,sv,syntax,42,unknown_module_only,2,compile_fail_g2012,rc=42 syntax
+sequential logic,Intermediate(3),ece241_2013_q8,sv,syntax,55,unknown_module_only,2,compile_fail_g2012,rc=73 syntax
+sequential logic,Intermediate(3),ece241_2014_q4,sv,syntax,30,unknown_module_only,2,compile_fail_g2012,rc=30 syntax
+sequential logic,Intermediate(3),ece241_2014_q5b,sv,syntax,37,unknown_module_only,2,compile_fail_g2012,rc=37 syntax
+sequential logic,Intermediate(3),freq_div,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),intermediate6,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),jeff_74x161,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),jeff_74x377,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),lemmings1,sv,syntax,54,unknown_module_only,2,compile_fail_g2012,rc=64 syntax
+sequential logic,Intermediate(3),lemmings2,sv,syntax,65,unknown_module_only,2,compile_fail_g2012,rc=79 syntax
+sequential logic,Intermediate(3),lemmings3,sv,syntax,92,unknown_module_only,2,compile_fail_g2012,rc=124 syntax
+sequential logic,Intermediate(3),lemmings4,sv,syntax,96,unknown_module_only,2,compile_fail_g2012,rc=134 syntax
+sequential logic,Intermediate(3),m2014_q4d,sv,syntax,28,unknown_module_only,2,compile_fail_g2012,rc=28 syntax
+sequential logic,Intermediate(3),mealy_state_machine,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),moore_state_machine,v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),review2015_fsmseq,sv,syntax,54,unknown_module_only,2,compile_fail_g2012,rc=69 syntax
+sequential logic,Intermediate(3),review2015_fsmshift,sv,syntax,43,unknown_module_only,2,compile_fail_g2012,rc=58 syntax
+sequential logic,Intermediate(3),review2015_fsmshift'',v,unknown_module_only,2,unknown_module_only,2,,
+sequential logic,Intermediate(3),review2015_shiftcount,sv,syntax,36,unknown_module_only,2,compile_fail_g2012,rc=36 syntax
+sequential logic,Intermediate(3),simple_pipeline,v,unknown_module_only,2,unknown_module_only,2,,

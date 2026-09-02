@@ -1,0 +1,11 @@
+Please act as a professional verilog designer.
+
+// Decoder - Three inputs decodes to 1 of 8 outputs (hot).
+
+module decoder_3_8_behavioral(
+    input       [2:0] in,       // 3 Input
+    output  reg [7:0] out);     // 8 Outputs
+
+	// Insert your code here
+
+endmodule

@@ -1,0 +1,42 @@
+Please act as a professional verilog designer.
+
+// A 2-bit full adder
+
+module full_adder_gate(
+    input       a,           // Data
+    input       b,           // Data
+    input       cin,         // Carry in
+    output      sum,         // Sum of a + b
+    output      cout);       // Carry out
+
+    wire        w1, w2, w3;
+
+    // GATE PRIMITIVE
+    // Insert your code below
+
+endmodule
+
+module full_adder_dataflow(
+    input       a,           // Data
+    input       b,           // Data
+    input       cin,         // Carry in
+    output      sum,         // Sum of a + b
+    output      cout);       // Carry out
+
+    // CONTINUOUS ASSIGNMENT STATEMENT
+    // Insert your code below
+
+
+endmodule
+
+module full_adder_behavioral(
+    input       a,           // Data
+    input       b,           // Data
+    input       cin,         // Carry in
+    output reg  sum,         // Sum of a + b
+    output reg  cout);       // Carry out
+
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+    // Insert your code below
+
+endmodule

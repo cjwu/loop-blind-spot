@@ -1,0 +1,47 @@
+== raw cell audit ==
+GPT-4 fail iters values: [(25.0, 75)] | None cells: ['m2014_q6c'] | >25: []
+4o fail iters values: [(25.0, 82)] | None cells: [] | >25: []
+4o-mini fail iters values: [(25.0, 89)] | None cells: [] | >25: []
+o1-mini fail iters values: [(25.0, 71)] | None cells: [] | >25: []
+
+== unlabeled (13) == ['2014_q4b', 'calender', 'clock', 'ece241_2014_q7a', 'ece241_2014_q7b', 'Fsm_serialdp', 'Module_name', 'Module_pos', 'Module_shift', 'Module_shift8_b', 'mulri_booth_8bit', 'Tb_and', 'tff']
+
+== labeled problems by type == Counter({'sequential logic': 101, 'combinatial logic': 92, 'building larger circuits': 14})
+
+== per-model repair efficacy: Wilson CI + Fisher p (comb vs seq) ==
+GPT-4    comb 25/32=78.1 W[61.2,89.0] | seq 31/83=37.3 W[27.7,48.1] | Fisher p=0.0001 | larger 9/13
+4o       comb 8/18=44.4 W[24.6,66.3] | seq 12/68=17.6 W[10.4,28.4] | Fisher p=0.0268 | larger 4/8
+4o-mini  comb 7/19=36.8 W[19.1,59.0] | seq 14/74=18.9 W[11.6,29.3] | Fisher p=0.1246 | larger 5/10
+o1-mini  comb 13/15=86.7 W[62.1,96.3] | seq 17/71=23.9 W[15.5,35.0] | Fisher p=0.0000 | larger 9/12
+pooled   comb 53/84=63.1 W[52.4,72.6] | seq 74/296=25.0 W[20.4,30.2] | naive Fisher p=2.33e-10
+
+== problem-level cluster bootstrap (4000 reps, resample problems within class) ==
+comb efficacy CI 51.7-75.9 | seq CI 17.7-33.2 | diff CI 24.0-53.1 pp | ratio CI 1.79-3.73
+
+== problem-level: among problems with >=1 first-attempt failure ==
+combinatial logic          problems w/ failure=39 | {'partial': 12, 'all recovered': 25, 'none': 2} | mean per-problem efficacy=77.4
+sequential logic           problems w/ failure=88 | {'none': 49, 'partial': 16, 'all recovered': 23} | mean per-problem efficacy=35.4
+building larger circuits   problems w/ failure=14 | {'all recovered': 9, 'partial': 2, 'none': 3} | mean per-problem efficacy=71.4
+
+== repair rounds among recovered ==
+combinatial logic          n=53 median=2.0 at1=49% <=2=60% <=5=79% max=23.0 mean=3.96
+sequential logic           n=74 median=3.0 at1=38% <=2=46% <=5=68% max=24.0 mean=5.81
+building larger circuits   n=27 median=2.0 at1=41% <=2=59% <=5=74% max=14.0 mean=3.48
+all                        n=154 median=2.0 at1=42% <=2=53% <=5=73% max=24.0
+rank-sum comb vs seq rounds: z=-1.57 p~0.117 (no tie correction)
+
+== building larger labeled problems ==
+  Adder100i_b                  Expert(5)        GPT-4:zero/0.0 4o:rec/1.0 4o-mini:rec/1.0 o1-mini:rec/1.0
+  adder_32bit                  Hard(4)          GPT-4:rec/14.0 4o:rec/1.0 4o-mini:never/25.0 o1-mini:rec/3.0
+  alu                          Expert(5)        GPT-4:never/25.0 4o:never/25.0 4o-mini:never/25.0 o1-mini:never/25.0
+  asyn_fifo                    Expert(5)        GPT-4:never/25.0 4o:never/25.0 4o-mini:never/25.0 o1-mini:never/25.0
+  Bcdadd4_b                    Intermediate(3)  GPT-4:rec/2.0 4o:zero/0.0 4o-mini:rec/1.0 o1-mini:rec/1.0
+  Bcsadd100_b                  Hard(4)          GPT-4:rec/10.0 4o:rec/6.0 4o-mini:rec/2.0 o1-mini:rec/1.0
+  Conwaylife                   Expert(5)        GPT-4:never/25.0 4o:never/25.0 4o-mini:never/25.0 o1-mini:never/25.0
+  dual_port_ram_asynchronous   Hard(4)          GPT-4:rec/6.0 4o:zero/0.0 4o-mini:zero/0.0 o1-mini:zero/0.0
+  dual_port_ram_synchronous    Hard(4)          GPT-4:rec/1.0 4o:zero/0.0 4o-mini:zero/0.0 o1-mini:zero/0.0
+  fifo_asynchronous            Expert(5)        GPT-4:rec/2.0 4o:rec/1.0 4o-mini:rec/5.0 o1-mini:rec/10.0
+  fifo_synchronous             Hard(4)          GPT-4:rec/3.0 4o:zero/0.0 4o-mini:rec/6.0 o1-mini:rec/1.0
+  Module_addsub_b              Intermediate(3)  GPT-4:rec/6.0 4o:zero/0.0 4o-mini:zero/0.0 o1-mini:rec/1.0
+  Module_b                     Intermediate(3)  GPT-4:never/25.0 4o:never/25.0 4o-mini:never/25.0 o1-mini:rec/4.0
+  Module_fadd_b                Intermediate(3)  GPT-4:rec/2.0 4o:zero/0.0 4o-mini:zero/0.0 o1-mini:rec/2.0

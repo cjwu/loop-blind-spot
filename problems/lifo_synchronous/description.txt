@@ -1,0 +1,31 @@
+Please act as a professional verilog designer.
+
+// A synchronous fifo.
+
+module lifo_synchronous_structural(
+    input  clk,             // Clock
+    input  rst,             // Reset
+    input  [7:0] data_in,   // DATA In
+    input  push,            // Write enable
+    output full,            // Full
+    output [7:0] data_out,  // DATA Out
+    input  pop,             // Read enable
+    output empty);          // Empty
+
+    //FIFO
+    // parameter DATA_WIDTH = 8;
+    // parameter ADDR_WIDTH = 4;
+    // parameter RAM_DEPTH = (1 << ADDR_WIDTH);
+
+    // DATA TYPES
+    wire [3:0] wrt_ptr, rd_ptr;
+    wire       w_next;
+    wire       r_next;
+    parameter  zeros = 8'h00;
+    parameter  zero =   1'b0;
+
+    // 16x8 dual port RAM
+	// Insert your code here
+
+
+endmodule

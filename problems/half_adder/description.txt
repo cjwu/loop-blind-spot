@@ -1,0 +1,37 @@
+Please act as a professional verilog designer.
+
+// A 2-bit half adder
+
+module half_adder_gate(
+    input       a,           // Data
+    input       b,           // Data
+    output      sum,         // Sum of a + b
+    output      cout);       // Carry out
+
+
+    // GATE PRIMITIVE
+    // Insert your code here
+
+endmodule
+
+module half_adder_dataflow(
+    input       a,           // Data
+    input       b,           // Data
+    output      sum,         // Sum of a + b
+    output      cout);       // Carry out
+
+    // CONTINUOUS ASSIGNMENT STATEMENT
+    // Insert your code here
+
+endmodule
+
+module half_adder_behavioral(
+    input       a,           // Data
+    input       b,           // Data
+    output reg  sum,         // Sum of a + b
+    output reg  cout);       // Carry out
+
+    // ALWAYS BLOCK with NON-BLOCKING PROCEDURAL ASSIGNMENT STATEMENT
+    // Insert your code here
+
+endmodule

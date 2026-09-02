@@ -1,0 +1,5 @@
+problems_verilogeval/
+verilog-eval/
+__pycache__/
+*.pyc
+.DS_Store
