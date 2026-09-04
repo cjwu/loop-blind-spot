@@ -1,9 +1,9 @@
 # Loop Engineering Has a Blind Spot: problem collection, run records and audit
 
 Material behind the article *Loop Engineering Has a Blind Spot* (under submission).
-The article reports a simulator-feedback repair loop for Verilog generation, run on 220 problems
-with four OpenAI models, in which 46 sequential-logic problems shipped SystemVerilog testbenches
-the flow did not execute. This package holds the problem collection, the per-problem run
+The article reports a simulator-feedback repair loop for Verilog generation, run with four OpenAI
+models on 207 problem records (201 distinct problems) of this collection, in which 46 sequential-logic
+problems shipped SystemVerilog testbenches the flow did not execute. This package holds the problem collection, the per-problem run
 records, the labels, and the scripts and outputs of the audit that found the artifact.
 
 ## What is here and what is not
@@ -33,7 +33,9 @@ are not validated; circuit-class labels are the objective part.
 ## Accounting of the run records
 
 `outcomes.csv` has 220 record names, each run once by each of the four models (880 rows).
-207 record names match a directory in the collection and take its class label; they cover 201
+**The article's tables and figures cover the 207 record names that match a directory in the
+collection**; the 13 that match none are kept here and excluded there. 207 record names match a
+directory in the collection and take its class label; they cover 201
 distinct problems, because six are recorded twice (with and without an `Exams_` prefix, or with
 a leading underscore). 13 record names match no directory (`release_name` empty): `2014_q4b`,
 `calender`, `clock`, `ece241_2014_q7a`, `ece241_2014_q7b`, `Fsm_serialdp`, `Module_name`,
@@ -50,7 +52,8 @@ by file name (`testbench_file`), under which these two fall in the plain-Verilog
 flow executed them. `Popcount3` was filed under two classes in the source tree; the combinational
 row keeps the name and the sequential copy is `Popcount3_seq` with `duplicate_of = Popcount3`.
 Other second copies carry `-2` or `_alt` suffixes and a `duplicate_of` marker.
-`audit/table1_from_release.py` rebuilds Table I of the article (all 220 records) from these two files.
+`audit/table1_from_release.py` rebuilds Table I of the article from these two files: the matched 207
+records (the article's population) and, below it, the same table over all 220.
 
 ## Reproducing the checks
 

@@ -1,5 +1,5 @@
 """Figures for the D&T article. Fig 1: per-problem outcomes for all 220 records by class and testbench file. Fig 2: convergence
-curves with and without the 46 SystemVerilog-testbench sequential problems."""
+curves with and without the 46 SystemVerilog-testbench sequential problems, over the 207 records that name a problem in the collection."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import recover as R
@@ -33,8 +33,7 @@ C, S, B = 'combinatial logic', 'sequential logic', 'building larger circuits'
 groups = [('Combinational\nplain-Verilog (92)', lambda e: e['key'] in lab and lab[e['key']][0] == C and ext(e) == 'v'),
           ('Sequential\nplain-Verilog (55)', lambda e: e['key'] in lab and lab[e['key']][0] == S and ext(e) == 'v'),
           ('Sequential\nSystemVerilog (46)', lambda e: e['key'] in lab and lab[e['key']][0] == S and ext(e) == 'sv'),
-          ('Larger\nblocks (14)', lambda e: e['key'] in lab and lab[e['key']][0] == B),
-          ('No dir.\n(13)', lambda e: e['key'] not in lab)]
+          ('Larger\nblocks (14)', lambda e: e['key'] in lab and lab[e['key']][0] == B)]
 mats = []
 for title, f in groups:
     ps = sorted([e for e in rec if f(e)], key=lambda e: (ext(e) == 'sv', e['name'].lower()))
@@ -57,20 +56,21 @@ fig.legend(handles=[Patch(color='#e6e6e6', label='passed on first attempt'), Pat
 fig.savefig(os.path.join(OUT, 'fig_heat.pdf'), bbox_inches='tight', dpi=600)
 # Fig 2
 svseq = lambda e: e['key'] in lab and lab[e['key']][0] == S and ext(e) == 'sv'
-keep = [e for e in rec if not svseq(e)]
+allrec = [e for e in rec if e['key'] in lab]   # the 207 records that name a problem in the collection
+keep = [e for e in allrec if not svseq(e)]
 ks = list(range(0, 26))
 fig, ax = plt.subplots(figsize=(3.5, 2.6))
 cols = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
 finals = []
 for m, c in zip(MODS, cols):
-    a = [100 * sum(1 for e in rec if e[m]['pass'] and e[m]['iters'] is not None and e[m]['iters'] <= k) / len(rec) for k in ks]
+    a = [100 * sum(1 for e in allrec if e[m]['pass'] and e[m]['iters'] is not None and e[m]['iters'] <= k) / len(allrec) for k in ks]
     b = [100 * sum(1 for e in keep if e[m]['pass'] and e[m]['iters'] is not None and e[m]['iters'] <= k) / len(keep) for k in ks]
-    ax.plot(ks, a, '-', color=c, lw=0.8, alpha=0.35, label=f'{NAMES[m]}, all 220')
-    ax.plot(ks, b, '-', color=c, lw=2.0, label=f'{NAMES[m]}, 174 without the 46')
+    ax.plot(ks, a, '-', color=c, lw=0.8, alpha=0.35, label=f'{NAMES[m]}, all 207')
+    ax.plot(ks, b, '-', color=c, lw=2.0, label=f'{NAMES[m]}, 161 without the 46')
     finals.append((a[-1], b[-1]))
 lo = sum(x for x, _ in finals) / len(finals); hi = sum(y for _, y in finals) / len(finals)
 ax.annotate('', xy=(26.3, hi), xytext=(26.3, lo), arrowprops=dict(arrowstyle='-|>', lw=0.8, color='0.25', shrinkA=0, shrinkB=0))
-ax.text(27.2, (lo + hi) / 2, '+16 to 17 points', fontsize=6, color='0.25', rotation=90, va='center', ha='center')
+ax.text(27.2, (lo + hi) / 2, '+18 to 20 points', fontsize=6, color='0.25', rotation=90, va='center', ha='center')
 ax.set_xlabel('repair rounds allowed, k'); ax.set_ylabel('designs passing by round k (%)')
 ax.set_xlim(0, 28); ax.set_xticks([0, 5, 10, 15, 20, 25]); ax.set_ylim(30, 90); ax.grid(alpha=0.3, lw=0.4)
 ax.legend(fontsize=6, ncol=2, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.22))
