@@ -152,7 +152,7 @@ Edgedetect,Edgedetect,sequential,2,testbench.sv,systemverilog,1,Prob054,edgedete
 Edgedetect2,Edgedetect2,sequential,2,testbench.sv,systemverilog,1,Prob045,edgedetect2,,labels_only
 Fsm3,Fsm3,sequential,2,testbench.sv,systemverilog,1,Prob119,fsm3,,labels_only
 Fsm3s,Fsm3s,sequential,2,testbench.sv,systemverilog,1,Prob120,fsm3s,,labels_only
-Popcount3,Popcount3,sequential,2,testbench.v,plain_verilog,1,Prob009,popcount3,,labels_and_our_testbench
+Popcount3_seq,Popcount3,sequential,2,testbench.v,plain_verilog,1,Prob009,popcount3,Popcount3,labels_and_our_testbench
 Shift4,Shift4,sequential,2,testbench.sv,systemverilog,1,Prob085,shift4,,labels_only
 advanced2,advanced2,sequential,2,testbench.v,plain_verilog,0,,,,full
 counter_2bc,counter_2bc,sequential,2,testbench.sv,systemverilog,1,Prob075,counter_2bc,,labels_only

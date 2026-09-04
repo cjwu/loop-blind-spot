@@ -1,4 +1,4 @@
-"""Figures for the D&T article. Fig 1: per-problem outcomes by testbench type. Fig 2: convergence
+"""Figures for the D&T article. Fig 1: per-problem outcomes for all 220 records by class and testbench file. Fig 2: convergence
 curves with and without the 46 SystemVerilog-testbench sequential problems."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
@@ -29,22 +29,25 @@ def outcome(e, m):
     if it is None: return np.nan
     if e[m]['pass'] and it == 0: return 0
     return 1 if e[m]['pass'] else 2
-C, S = 'combinatial logic', 'sequential logic'
-groups = [('Combinational\nplain-Verilog testbench (92)', lambda e: lab[e['key']][0] == C and ext(e) == 'v'),
-          ('Sequential\nplain-Verilog testbench (55)', lambda e: lab[e['key']][0] == S and ext(e) == 'v'),
-          ('Sequential\nSystemVerilog testbench (46)', lambda e: lab[e['key']][0] == S and ext(e) == 'sv')]
+C, S, B = 'combinatial logic', 'sequential logic', 'building larger circuits'
+groups = [('Combinational\nplain-Verilog (92)', lambda e: e['key'] in lab and lab[e['key']][0] == C and ext(e) == 'v'),
+          ('Sequential\nplain-Verilog (55)', lambda e: e['key'] in lab and lab[e['key']][0] == S and ext(e) == 'v'),
+          ('Sequential\nSystemVerilog (46)', lambda e: e['key'] in lab and lab[e['key']][0] == S and ext(e) == 'sv'),
+          ('Larger\nblocks (14)', lambda e: e['key'] in lab and lab[e['key']][0] == B),
+          ('No dir.\n(13)', lambda e: e['key'] not in lab)]
 mats = []
 for title, f in groups:
-    ps = sorted([e for e in rec if e['key'] in lab and f(e)], key=lambda e: e['name'].lower())
+    ps = sorted([e for e in rec if f(e)], key=lambda e: (ext(e) == 'sv', e['name'].lower()))
     M = np.array([[outcome(e, m) for e in ps] for m in MODS], dtype=float)
     mats.append((title, M))
+print('fig 1 columns per panel:', [m.shape[1] for _, m in mats], 'total', sum(m.shape[1] for _, m in mats))
 plt.rcParams.update({'font.size': 7, 'font.family': 'sans-serif', 'pdf.fonttype': 42, 'ps.fonttype': 42})
-fig, axes = plt.subplots(1, 3, figsize=(7.1, 1.75), gridspec_kw={'width_ratios': [m.shape[1] for _, m in mats], 'wspace': 0.06})
+fig, axes = plt.subplots(1, len(groups), figsize=(7.1, 1.75), gridspec_kw={'width_ratios': [m.shape[1] for _, m in mats], 'wspace': 0.09})
 cmap = ListedColormap(['#e6e6e6', '#4c72b0', '#b22222']); cmap.set_bad('white')
 for ax, (title, M) in zip(axes, mats):
     ax.pcolormesh(np.ma.masked_invalid(M), cmap=cmap, vmin=0, vmax=2, edgecolors='none', rasterized=False)
     ax.invert_yaxis()
-    ax.set_title(title, fontsize=7, pad=3)
+    ax.set_title(title, fontsize=7 if M.shape[1] > 20 else 6, pad=3)
     ax.set_xticks([]); ax.set_yticks([k + 0.5 for k in range(4)])
     ax.set_yticklabels([NAMES[m] for m in MODS] if ax is axes[0] else [''] * 4)
     for s in ax.spines.values(): s.set_linewidth(0.4)

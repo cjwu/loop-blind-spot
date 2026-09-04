@@ -1,0 +1,9 @@
+class          testbench     probs    first-attempt  fail  rec  efficacy  never     repair calls
+combinational  testbench.v      92  284/368   77.2%    84   53     63.1%      1    985 (11.4%)
+sequential     testbench.v      55  107/219   48.9%   112   71     63.4%      5   1429 (16.5%)
+sequential     testbench.sv     46    0/184    0.0%   184    3      1.6%     43   4551 (52.5%)
+larger_blocks  testbench.v      13   13/52    25.0%    39   27     69.2%      2    394 ( 4.5%)
+larger_blocks  testbench.sv      1    0/4      0.0%     4    0      0.0%      1    100 ( 1.2%)
+no directory   unknown          13    1/52     1.9%    51    3      5.9%     12   1204 (13.9%)
+all records                    220  405/879   46.1%   474  157     33.1%     64   8663
+repair calls on records no model ever passed: 6400 (73.9%)
