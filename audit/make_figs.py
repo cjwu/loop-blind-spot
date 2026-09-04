@@ -41,7 +41,8 @@ for title, f in groups:
     mats.append((title, M))
 print('fig 1 columns per panel:', [m.shape[1] for _, m in mats], 'total', sum(m.shape[1] for _, m in mats))
 plt.rcParams.update({'font.size': 7, 'font.family': 'sans-serif', 'pdf.fonttype': 42, 'ps.fonttype': 42})
-fig, axes = plt.subplots(1, len(groups), figsize=(7.1, 1.75), gridspec_kw={'width_ratios': [m.shape[1] for _, m in mats], 'wspace': 0.09})
+widths = [m.shape[1] * (2 if m.shape[1] < 20 else 1) for _, m in mats]   # the 14-column larger-block panel is drawn at twice the column width
+fig, axes = plt.subplots(1, len(groups), figsize=(7.1, 1.75), gridspec_kw={'width_ratios': widths, 'wspace': 0.09})
 cmap = ListedColormap(['#e6e6e6', '#4c72b0', '#b22222']); cmap.set_bad('white')
 for ax, (title, M) in zip(axes, mats):
     ax.pcolormesh(np.ma.masked_invalid(M), cmap=cmap, vmin=0, vmax=2, edgecolors='none', rasterized=False)
@@ -71,7 +72,7 @@ for m, c in zip(MODS, cols):
 lo = sum(x for x, _ in finals) / len(finals); hi = sum(y for _, y in finals) / len(finals)
 ax.annotate('', xy=(26.3, hi), xytext=(26.3, lo), arrowprops=dict(arrowstyle='-|>', lw=0.8, color='0.25', shrinkA=0, shrinkB=0))
 ax.text(27.2, (lo + hi) / 2, '+18 to 20 points', fontsize=6, color='0.25', rotation=90, va='center', ha='center')
-ax.set_xlabel('repair rounds allowed, k'); ax.set_ylabel('designs passing by round k (%)')
+ax.set_xlabel('repair rounds allowed, k'); ax.set_ylabel('cumulative passing problem-model pairs\nby round k (%)', fontsize=7)
 ax.set_xlim(0, 28); ax.set_xticks([0, 5, 10, 15, 20, 25]); ax.set_ylim(30, 90); ax.grid(alpha=0.3, lw=0.4)
 ax.legend(fontsize=6, ncol=2, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.22))
 for s in ax.spines.values(): s.set_linewidth(0.4)
